@@ -1,0 +1,78 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+
+header {
+	margin: 0;
+	padding: 3vw;
+	color: white;
+	background-color: #222;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+
+.projects-title {
+	text-align: center;
+}
+
+.avatar {
+	object-fit:contain;
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	padding-left: 10vw;
+}
+
+.projects-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.project {
+	border: solid 8px #222;
+	border-radius: 30px;
+	text-align: center;
+	background-color: white;
+	width: 25vw;
+}
+
+.project img {
+	width: 100%;
+	max-height: 30%;
+}
+
+.project-text {
+	padding: 3%;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.avatar {
+		 padding: 0;
+	}
+
+
+}
