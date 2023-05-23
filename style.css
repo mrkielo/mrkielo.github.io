@@ -99,6 +99,10 @@ footer img {
 	width: 50px;
 }
 
+a:link,a:visited {
+	color: #000;
+}
+
 @media screen and (max-width: 600px) {
 	header {
 		flex-direction: column-reverse;
