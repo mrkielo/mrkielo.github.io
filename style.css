@@ -24,6 +24,7 @@ header {
 	background-color: #222;
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 10vh;
 	
 }
 
@@ -47,28 +48,35 @@ header {
 }
 
 .project {
-	border: solid 8px #222;
-	border-radius: 30px;
 	text-align: center;
 	background-color: white;
+	box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 	width: 25vw;
 }
 
 .project img {
 	width: 100%;
-	
 }
 
 .project-text {
-	padding: 3%;
+	padding: 10% 3% ;
 }
 
 footer {
+	padding: 0 20%;
 	margin-top: 10vh;
 	max-height: 50vh;
 	min-height: 20vh;
 	color: white;
 	background-color: #222;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer img {
+	height: 50px;
+	width: 50px;
 }
 
 @media screen and (max-width: 600px) {
